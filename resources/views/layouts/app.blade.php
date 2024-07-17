@@ -8,6 +8,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/byhyons.png">
+
     <title>{{ config('app.name', 'Laravel') }}</title>
 
 
@@ -27,6 +30,7 @@
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
                     <div class="logo_laravel">
+                        {{-- <img src="/byhyons-trasparent.svg" alt="logo"> --}}
                         <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg"
                             style="width: 150px">
                             <g clip-path="url(#clip0)" fill="#EF3B2D">
