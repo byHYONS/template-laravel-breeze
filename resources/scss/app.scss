@@ -5,11 +5,9 @@
 @import './partials/typography';
 @import './partials/utilities';
 @import './partials/variables';
-@import './partials/extende';
+@import './partials/extend';
 @import './partials/mixin';
 @import './components/header';
 @import './components/footer';
 @import './partials/common';
 
-
-// body {@include checkerboard(15px, $gray, $ligthGray)}
