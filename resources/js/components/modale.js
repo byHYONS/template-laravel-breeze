@@ -67,7 +67,7 @@ closeBtns.forEach(Button => {
     Button.addEventListener('click', function(e) {
         e.preventDefault();
 
-        const modale = Button.closest('.delete__modale');
+        const modale = Button.closest('.modale__modale');
         modale.classList.add('holding');
         document.body.classList.remove('no-scroll');
         overLay.classList.add('screen');
