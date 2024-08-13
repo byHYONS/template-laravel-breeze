@@ -2,11 +2,11 @@
         * MODALE DELETE
 *********************************** */
 
-const deleteBtn = document.querySelector('.destroy');
+const deleteBtn = document.querySelector('.modale');
 const deleteBtns = document.querySelectorAll('.destroy');
 const closeBtn = document.querySelector('.modale__exit');
 const closeBtns = document.querySelectorAll('.modale__exit');
-const modale = document.querySelector('.delete__modale');
+const modale = document.querySelector('.modale__modale');
 const overLay = document.querySelector('.screen');
 
 console.log(deleteBtn);
@@ -78,12 +78,12 @@ closeBtns.forEach(Button => {
 //TODO: iserire in pagina la modale:
 /*
 
-<a href="{{$project->slug}}" class="destroy" data-slug="{{$project->slug}}">
+<a href="{{$project->slug}}" class="modale" data-slug="{{$project->slug}}">
     <i class="fas fa-trash"></i>
 </a>  
 
 {{--? modale --}}
-<div class="delete__modale holding" id="modale-{{$project->slug}}">
+<div class="modale__modale holding" id="modale-{{$project->slug}}">
     <span class="modale__exit">CHIUDI</span>
     <h4>Sei sicuro di voler cancellare?</h4>
     <p>La cancellazione è irreversibile</p>
